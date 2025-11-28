@@ -2,6 +2,8 @@
 
 This project is a responsive single-page dashboard designed to provide a clear and interactive overview of employee tasks. It features filtering, search, and an employee spotlight panel with task analytics.
 
+<img width="1919" height="905" alt="image" src="https://github.com/user-attachments/assets/d4ce5d19-90ec-4dbb-868e-795100e473cb" />
+
 ## Tech Stack
 
 - **Frontend:** React.js
@@ -47,4 +49,7 @@ To run this project locally, follow these steps:
 
 ## Screenshots
 
-*(Placeholder for screenshots or a short screen recording of the application in use.)*
+<img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/0cd27447-990f-4e0c-9018-495f2bc90a87" />
+
+<img width="1919" height="904" alt="image" src="https://github.com/user-attachments/assets/c1f6e8c2-7bed-4eb1-a9c0-f639d0f50937" />
+
