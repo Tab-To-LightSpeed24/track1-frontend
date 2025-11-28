@@ -1,0 +1,57 @@
+{
+  "employees": [
+    {
+      "id": 101,
+      "name": "Alex Johnson",
+      "title": "Software Engineer",
+      "email": "alex.j@prou.com",
+      "tasks_completed": 5
+    },
+    {
+      "id": 102,
+      "name": "Sarah Chen",
+      "title": "UX Designer",
+      "email": "sarah.c@prou.com",
+      "tasks_completed": 7
+    },
+    {
+      "id": 103,
+      "name": "Mike Davis",
+      "title": "Product Manager",
+      "email": "mike.d@prou.com",
+      "tasks_completed": 3
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "employee_id": 101,
+      "description": "Implement user authentication module",
+      "status": "In Progress"
+    },
+    {
+      "id": 2,
+      "employee_id": 102,
+      "description": "Redesign checkout flow UI/UX",
+      "status": "Completed"
+    },
+    {
+      "id": 3,
+      "employee_id": 101,
+      "description": "Fix critical database bug",
+      "status": "Completed"
+    },
+    {
+      "id": 4,
+      "employee_id": 103,
+      "description": "Write Q3 roadmap document",
+      "status": "In Progress"
+    },
+    {
+      "id": 5,
+      "employee_id": 102,
+      "description": "Conduct user interviews (Round 2)",
+      "status": "In Progress"
+    }
+  ]
+}

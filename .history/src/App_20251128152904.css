@@ -1,0 +1,95 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+main {
+  display: flex;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.employee-section {
+  flex: 1;
+}
+
+.task-section {
+  flex: 2;
+  text-align: left;
+}
+
+/* Employee List Styling */
+.employee-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+
+.employee-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.employee-card:hover {
+  background-color: #f0f0f0;
+  border-color: #007bff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.employee-card.selected {
+  background-color: #e6f7ff;
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  transform: scale(1.02);
+}
+
+/* Task List Styling */
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  border: 1px solid #eee;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item.status-in-progress {
+  border-left: 5px solid orange;
+  background-color: #fff8e1;
+}
+
+.task-item.status-completed {
+  border-left: 5px solid green;
+  background-color: #e8f5e9;
+}
+
+/* Basic Responsiveness */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+  .task-section {
+    margin-top: 30px;
+  }
+}

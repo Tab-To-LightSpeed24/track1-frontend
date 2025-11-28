@@ -1,0 +1,106 @@
+{
+  "employees": [
+    {
+      "id": 101,
+      "name": "Alex Johnson",
+      "title": "Software Engineer",
+      "email": "alex.j@prou.com",
+      "avatar": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "id": 102,
+      "name": "Sarah Chen",
+      "title": "UX Designer",
+      "email": "sarah.c@prou.com",
+      "avatar": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": 103,
+      "name": "Mike Davis",
+      "title": "Product Manager",
+      "email": "mike.d@prou.com",
+      "avatar": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": 104,
+      "name": "Emily White",
+      "title": "QA Tester",
+      "email": "emily.w@prou.com",
+      "avatar": "https://i.pravatar.cc/150?img=4"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Implement user authentication module",
+      "employee_id": 101,
+      "status": "In Progress",
+      "priority": "High",
+      "due_date": "2024-08-15"
+    },
+    {
+      "id": 2,
+      "title": "Redesign checkout flow UI/UX",
+      "employee_id": 102,
+      "status": "Completed",
+      "priority": "High",
+      "due_date": "2024-07-20"
+    },
+    {
+      "id": 3,
+      "title": "Fix critical database bug",
+      "employee_id": 101,
+      "status": "Completed",
+      "priority": "Medium",
+      "due_date": "2024-07-25"
+    },
+    {
+      "id": 4,
+      "title": "Write Q3 roadmap document",
+      "employee_id": 103,
+      "status": "In Progress",
+      "priority": "Low",
+      "due_date": "2024-09-01"
+    },
+    {
+      "id": 5,
+      "title": "Conduct user interviews (Round 2)",
+      "employee_id": 102,
+      "status": "Todo",
+      "priority": "Medium",
+      "due_date": "2024-08-10"
+    },
+    {
+      "id": 6,
+      "title": "Setup CI/CD pipeline",
+      "employee_id": 101,
+      "status": "Todo",
+      "priority": "High",
+      "due_date": "2024-08-25"
+    },
+    {
+      "id": 7,
+      "title": "Test new mobile responsiveness",
+      "employee_id": 104,
+      "status": "In Progress",
+      "priority": "Medium",
+      "due_date": "2024-07-30"
+    },
+    {
+      "id": 8,
+      "title": "Plan marketing campaign for new feature",
+      "employee_id": null,
+      "status": "Todo",
+      "priority": "Low",
+      "due_date": "2024-09-15"
+    },
+    {
+      "id": 9,
+      "title": "Update third-party API integrations",
+      "employee_id": 101,
+      "status": "Overdue",
+      "priority": "High",
+      "due_date": "2024-07-01"
+    }
+  ]
+}
